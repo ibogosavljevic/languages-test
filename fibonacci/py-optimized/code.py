@@ -11,7 +11,7 @@ def main():
     u = int(sys.argv[1])
     fib0 = 0
     fib1 = 1
-    r = 0
+    r = 1
     for i in range(2, u):
       fib = fib0 + fib1
       r += fib
